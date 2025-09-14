@@ -1,0 +1,11 @@
+--- -------------------------------------------
+-Las referencias: Arriba poner entre paréntesis el numerito de la fuente que esta abajo
+-Referencias temas de servidor y cliente, borrar los temas y poner profesor
+-MVC especificar cual es el genérico y cual es el especifico mio.
+Explicar las carpetas y como se desvía del MVC generico.
+-Diagrama de secuencia: Descrbir que es el diagrama de la secuencia de la pagina principal, que es bastante importante.
+-Entidad relación y bbdd: Descrbir con tus palabras
+-Grado cumplimiento requisitos: explicar que es verde y rojo. ¿Lo vas a imprimir en color o a blanco y negro?
+-
+
+-Versión alternativa local si no va internet.

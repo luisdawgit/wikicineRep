@@ -1,0 +1,42 @@
+/* --------- Ventana modal ------------------------------------- */
+/* Ventana modal para puntuar */
+#instruccion_puntuar {
+  font-size: 20pt;
+  color: rgb(255, 255, 255);
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+#puntuacion_usuario {
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+  font-size: 30pt;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+}
+
+/* ----------- */
+/* --- estrellas de modal puntuacion --- */
+.stars {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+.star {
+  font-size: 30pt !important;
+  color: #ffffff !important;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+}
+
+.selected {
+  /* Amarillo 3 Estrella */
+  /* color: gold; */
+  color: #ffd700 !important;
+}
+/* --- estrellas de modal puntuacion end --- */
+/* Ventana modal para puntuar end */
+/* --------- Ventana modal end ------------------------------------- */

@@ -1,0 +1,90 @@
+/* PASTILLA */
+/* template_genero.css */
+.pastilla {
+  /* amarillo 3*/
+  background-color: gold;
+
+  width: 100%;
+
+  margin-bottom: 3%;
+  margin-right: 2%;
+  border-radius: 15px 15px 0px 0px;
+
+  /* Mismo efecto que poner p-0 */
+  padding: 0 !important;
+
+  /* Puede influir en la activacion de los row y col. Manejar con cuidado */
+  /* max-width: 40% !important; */
+}
+
+.pastilla .poster_pelicula_pastilla {
+  width: 100%;
+  aspect-ratio: 7 / 10; /* Mantiene la proporción 70x100 */
+  overflow: hidden; /* Evita que las imágenes desborden */
+
+  margin-bottom: 5%;
+  padding: 0px;
+}
+
+.pastilla .poster_pelicula_pastilla img {
+  /* Ambos funcionan realmente */
+  /* object-fit: cover; */
+  object-fit: fill;
+
+  width: 100%;
+  /* height: 100%; */
+  height: auto;
+
+  border-radius: 15px 15px 0px 0px;
+  padding: 0px;
+}
+
+.pastilla .datos_pastilla {
+  padding: 5%;
+}
+
+.pastilla .datos_pastilla p {
+  margin: 0;
+  padding: 0% 2%;
+  font-size: 1.3rem;
+  /* negro 1 */
+  color: rgb(34, 34, 34);
+}
+
+.pastilla .datos_pastilla p span {
+  font-weight: bold;
+  font-size: 1.3rem;
+  /* negro 2 */
+  color: rgb(54, 54, 54);
+}
+
+.pastilla {
+  padding-left: 0%;
+  padding-right: 0%;
+}
+
+/* Todo lo que sea mas pequeño de 1024px */
+@media only screen and (max-width: 1024px) {
+  .pastilla .datos_pastilla p {
+    font-size: 1.5rem;
+  }
+  .pastilla .datos_pastilla p span {
+    font-size: 1.5rem;
+  }
+}
+/* Todo lo que sea mas pequeño de 1024px */
+@media only screen and (max-width: 768px) {
+  .pastilla .datos_pastilla p {
+    font-size: 1.2rem;
+  }
+  .pastilla .datos_pastilla p span {
+    font-size: 1.2rem;
+  }
+}
+/* PASTILLA end */
+/*
+Los posters son 
+70cm x 100cm
+igual a
+18em x 25em
+*/

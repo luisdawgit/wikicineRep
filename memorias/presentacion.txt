@@ -1,0 +1,120 @@
+Me llamo Luis y este es mi proyecto: WIKICINE
+[FOTO PORTADA]
+
+Se trata de un sitio web sobre cine, que aloja varias paginas dentro.
+En el se pude consultar informacion sobre varias peliculas.
+
+................................
+El sitio web tiene una version para los registrados y otra para los no registrados.
+[Foto y letras grandes, colores]
+
+Usar imagenes de la Guia.[supongamos que 5 minutos]
+-Para registrados
+-Para no registrados
+................................
+
+El nombre, Wikicine viene de Wiki y de Cine.
+Wiki como Wikipedia. Wiki se ha convertido en un prefijo sinonimo de repositorio de informacion de algun tema concreto.
+A dia de hoy hay muchas Wikis sobre una enorme variedad de tematicas en internet.
+
+Herramientas:
+[Copiar de TECNOLOGIAS punto 3]
+Explicar para que sirvio cada una con fotos.
+Explica que Wamp fue un elemento transicional pero esencial
+antes de desplegarlo en Hostinguer.
+
+HTML:
+-Landing page
+-Pastillas
+-Formularios de registro y de añadir peliculas
+-Páginas de exito o fracaso de formularios
+-Pagina de la película seleccionada
+
+CSS: Para dar estilos a las páginas creadas en HTML
+
+PHP: Para la modelo y controlador. También para renderizar algunos de los archivos de la vista.
+
+JAVASCRIPT: Para la vista. Aporta funcionalidades de validación y efectos visuales.
+
+SQL: Para crear las tablas de la base de datos.
+
+BOOTSTRAP: Como complemento del estilo css. Organización de contendedores en columnas y parte del comportamiento responsive.
+
+SWEETALERT2: Para ventanas modales y toast.
+...
+HTML
+CSS
+PHP
+JAVASCRIPT
+SQL
+BOOTSTRAP
+SWEETALERT2
+...
+---///////////////////////////// ini ---
+[Recursos de Software]
+
+Visual Studio Code: Para generar código de todo tipo.
+
+W.A.M.P.: Generar un servidor local.
+Lo usé en la etapa inicial, antes de poder desplegarlo en un servidor online.
+
+DbSchema: Representar diagramas relacionales. Inicialmente el diagrama relacional lo hice con él.
+
+PhpMyAdmin: Gestionar la base de datos. Es versatil.
+Representar Diagrama relacional en la etapa final.
+
+Draw.io: Generar diagramas varios. Diagrama Entidad-Relación y de Sitio web.
+ 
+Illustrator: Generar diagramas y graficos como
+la paleta de colores y el diagrama de Gantt.
+
+Google: Búsqueda de información primaria
+
+Hostinger: Es un servicio de hosting y dominio.
+Incluye un editor de código, PhpMyAdmin, etc.
+
+
+---//////////////////////////// end ---
+
+El patron MVC Modelo-Vista-Controlador
+[Fotos y texto de las memorias]
+
+
+Codigo:
+-Explicar como usas include para conectarte a la base de datos
+-Explicar plantillas
+-Explicar el HEADER como ejemplo
+o/y 
+-Credenciales por ejemplo
+
+
+La base de datos:
+Explicarlas tablas intermedias y por que solo 1 director.
+-Explicar "El fallo de concepto": Los CAMBIOS que tuviste que hacer para que cada pelicula perteneciese a varios generos, por pensar mal la tabla inicialmente.
+No habia nada mal a nivel tecnico pero una preferencia personal(orden) afectó negativamente al desarrollo del proyecto.
+
+
+El proceso:
+Idea vs Resultado
+[copiar lista de V y X]
+[Responder preguntas-Explicar con tus palabras]
+
+Mejoras:
+-Mejoras que podrian implementarese Coger de las memorias.
+-Explicar la opcion de borrado y por que no la implementaste.
+-Explicar el concepto de "Moderacion A Mano".
+Decir que eso perteneceria a una TERCERA sesion superior que perteneceria a los moderadores y dueños de Wikicine, pues no es funcional que cualquier persona se pueda registrar y borrar peliculas asi como asi.
+Es un poder que debe pertenecer a unos pocos.
+
+
+
+
+
+
+
+
+
+
+
+
+

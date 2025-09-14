@@ -1,0 +1,92 @@
+/* header.css */
+
+.basicosheader {
+  margin-bottom: 60px;
+  background-color: rgb(227, 192, 49) !important;
+}
+
+.basicosheader a {
+  color: rgb(54, 54, 54) !important;
+}
+
+.modal-content {
+  background-color: rgb(34, 34, 34) !important;
+}
+
+.modal-header {
+  background-color: rgb(227, 192, 49) !important;
+}
+
+#loginForm label {
+  color: rgb(255, 255, 255) !important;
+}
+
+#logoWikicine{
+    width: 90px;
+    height: 90px;
+    margin-right: 15px;
+}
+
+/* BOTON CONFIRM ----------------------------- */
+/* ROJO */
+.btn-confirm {
+    background-color: #5a6268 !important;
+    color: white;
+    border: 3px solid #222222;
+    
+    /*gris oscuro*/
+    border: 3px solid #222222;
+    /*aliceblue*/
+    border: 3px solid aliceblue;
+}
+  
+    
+    
+/* 
+*/
+/* BOTON CONFIRM end ----------------------------- */
+
+
+/*
+
+@media only screen and (max-width: 1300px) {
+  #logoWikicine{
+      background-color: green !important;
+    width: 10%;
+    height: 10%;
+  }
+}
+
+...................................................
+
+@media only screen and (max-width: 768px) {
+  .navbar{
+        background-color: red !important;
+    }
+    
+  .navbar-expand-xs .navbar-collapse {
+    display: none !important;
+  }
+    
+  .navbar-expand-xs .navbar-toggler {
+    display: block !important;
+  }
+}
+----------------------
+@media only screen and (max-width: 991px) {
+  .navbar{
+        background-color: red !important;
+    }
+    
+  .navbar-expand-xl .navbar-collapse {
+    display: none !important;
+  }
+  
+    
+  .navbar-expand-xl .navbar-toggler {
+    display: block !important;
+  }
+}
+*/
+
+

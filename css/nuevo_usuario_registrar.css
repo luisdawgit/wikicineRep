@@ -1,0 +1,31 @@
+/* nuevo_usuario_registrar.css */
+
+body {
+  background-color: rgb(34, 34, 34) !important;
+  /* background-color: rgb(54, 54, 54) !important; */
+  color: rgb(255, 255, 255);
+}
+
+.basicosheader {
+  margin-bottom: 60px;
+  background-color: rgb(227, 192, 49) !important;
+}
+
+.basicosheader a {
+  color: rgb(54, 54, 54) !important;
+}
+
+/* Modal Login Header 
+#loginModal 
+*/
+.modal-content {
+  background-color: rgb(34, 34, 34) !important;
+}
+
+.modal-header {
+  background-color: rgb(227, 192, 49) !important;
+}
+
+#loginForm label {
+  color: rgb(255, 255, 255) !important;
+}

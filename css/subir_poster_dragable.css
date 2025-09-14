@@ -1,0 +1,93 @@
+/* subir_poster_dragable.css */
+
+.agregado {
+  /* display: block !important; */
+  background-color: transparent;
+
+  border: 3px dashed rgb(67, 207, 67) !important;
+  color: white;
+}
+
+.nombreArchivo {
+  color: rgb(67, 207, 67);
+  font-weight: bold;
+
+  /* align-self: flex-end; */
+  /* Alinea el segundo <p> al final */
+}
+
+.drop-zone:hover {
+  border: 2px solid #ffcb0d;
+
+  /* Aumentar de tamaño el contenedor */
+  transform: scale(1.1); /* Aumenta el tamaño al 110% */
+
+  margin-top: 20px;
+}
+
+.drop-zone {
+  border: 2px dashed #ffcb0d;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+  width: 250px;
+  height: 250px;
+  /* para centrar en el centro */
+  margin: auto;
+  margin-left: 0;
+  margin-right: 0;
+
+  /* Flexbox para centrar contenido */
+  display: flex;
+  justify-content: center; /* Centrar horizontalmente cuando es un unico elemento*/
+  align-items: center; /* Centrar verticalmente */
+  flex-direction: column; /* Orientación vertical */
+
+  /* No desbordar nombre archivo */
+  word-wrap: break-word; /*Permite salto de linea cuando no hay espacio*/
+  overflow-wrap: break-word; /* Para navegadores modernos */
+  /* text-align: center; */
+  overflow: hidden; /* Evita que el texto desborde el contenedor */
+}
+
+.drop-zone-cargado {
+  justify-content: space-between;
+  align-items: center;
+
+  /* No desbordar nombre archivo */
+  word-wrap: break-word;
+  word-break: break-word;
+  white-space: normal;
+}
+.drop-zone-cargado img {
+  /* imagen preview */
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  object-fit: contain;
+  /* imagen preview end */
+}
+
+.drop-zone.dragover {
+  /* negro 2 medio */
+  color: rgb(26, 26, 26);
+  background-color: #ffeda5;
+  border: 2px dashed #ffd900;
+  border: 2px solid #ffcb0d;
+
+  /* Escalar el contenedor */
+  transform: scale(1.1); /* Aumenta el tamaño al 110% */
+}
+
+.file-input {
+  display: none; /* Ocultar el input */
+}
+
+#fileList {
+  margin-top: 20px;
+  list-style: none;
+  padding: 0;
+}

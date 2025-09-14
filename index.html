@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+
+    <!-- SweetAlert2 CSS -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- SweetAlert2 CSS end-->
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <!-- Bootstrap CSS end-->
+
+    <!-- FontAwesome (para iconos) -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+      integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+      crossorigin="anonymous"
+    />
+    <!-- FontAwesome (para iconos) end -->
+
+    <!-- Es imporante que TUS hojas de estilo esten aqui abajo -->
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+
+    <style>
+        body {
+          background-color: rgb(11, 11, 11) !important;
+          color: white;
+          background-image: url(img/material/butacas2.jpg);
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover;
+        }
+
+        @media screen and (max-width: 850px) {
+          body {
+            width: 100%;
+            height: 170%;
+          }
+        }
+    
+        #presentacion {
+            display: flex;
+            /*centrar verticalmente */
+            min-height: 100vh; 
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+            margin: 25px;
+        }
+        
+
+        
+    </style>
+  </head>
+
+  <body>
+    <div id="presentacion">
+      <h1>Bienvenido a WIKICINE</h1>
+
+      <p>Tu pagina web de referencia para informarte sobre cine.</p>
+      <p>
+        Aqui tendras a tu disposicion todos los dastos sobre un
+        <br />
+        amplio abanico de peliculas organizadas en generos cinematograficos.
+      </p>
+      <br />
+      <br />
+      <a href="vista/principal_page.php">
+        <button class="btn btn-primary ml-3">Click aqui</button>
+      </a>
+    </div>
+  </body>
+</html>

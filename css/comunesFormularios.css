@@ -1,0 +1,20 @@
+/* comunesFormularios.css */
+input,
+label {
+  border-radius: 10px !important;
+  color: blanco;
+}
+
+.labelActoresDirectores {
+  margin-top: 20px !important;
+}
+
+select {
+  text-align: center;
+  border-radius: 5px !important;
+}
+
+textarea {
+  border-radius: 20px !important;
+}
+

@@ -1,0 +1,62 @@
+
+      body {
+        background-color: lightgreen;
+        /* negro 1 oscuro */
+        background-color: rgb(34, 34, 34);
+        margin: 30px;
+
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+      }
+
+/* Exclusivo de peliculas 
+----------------------------------------------*/
+    #enviarBoton{
+      color: black;
+      background-color: rgb(211, 151, 38);
+      color: rgb(255, 255, 255);
+    
+      border: 0px none transparent;
+      border-radius: 6px;
+      padding: 10px 20px;
+      margin-bottom: 40px;
+    }
+
+    h1{
+      color: white;
+    }
+
+    img {
+        width: 30%;
+    }
+
+/* Exclusivo de peliculas end
+----------------------------------------------*/
+
+      p {
+        margin-top: 0px;
+        color: white;
+        font-size: 20pt;
+      }
+
+      a {
+        display: block;
+        margin: 0px;
+        padding: 0px;
+        color: white;
+        font-size: 15pt;
+        text-decoration: none;
+      }
+
+/*
+      button {
+        background-color: rgb(211, 151, 38);
+        color: rgb(255, 255, 255);
+
+        color: black;
+        border: 0px none transparent;
+        border-radius: 6px;
+        padding: 5px 5px;
+        text-decoration: none;
+      }
+*/

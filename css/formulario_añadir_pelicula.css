@@ -1,0 +1,97 @@
+body {
+  /* negro 1 oscuro */
+  background-color: rgb(34, 34, 34);
+  color: aliceblue;
+}
+
+/* div preformulario */
+h1 {
+  margin: 10px 0px;
+}
+
+.preformulario {
+  margin: 10px 50px;
+  padding: 10px 10px 10px 0px;
+}
+/* div preformulario end */
+
+#enviarBoton {
+  color: black;
+  background-color: rgb(211, 151, 38);
+  color: rgb(255, 255, 255);
+
+  border: 0px none transparent;
+  border-radius: 6px;
+  padding: 10px 20px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+button {
+  color: black;
+  background-color: rgb(211, 151, 38);
+  color: rgb(255, 255, 255);
+
+  border: 0px none transparent;
+  border-radius: 6px;
+  padding: 5px 5px;
+}
+
+/* .................. */
+label {
+  display: block;
+  margin-bottom: 5px; /* Espaciado opcional entre label e input */
+}
+
+label .subTexto{
+    /* amarillo claro */
+    color: #FFD700;
+}
+
+.subTexto {
+    /* blue */
+    color: #007BFF;
+
+    /* verde */
+    color: #00A354;
+
+    /* aliceblue */
+    color: #f0f8ff;
+
+    font-style: italic;
+    font-size: 14px;
+}
+
+.espaciadoSecciones,
+#actoresTodo,
+#guionistasTodo {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+#actoresDiv,
+#guionistasDiv {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+
+#derecha {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+#izquierda {
+/* margin-right: 30px */;
+  padding-left: 0px;
+  padding-right: 0px;
+  /*-----*/
+}
+
+#izquierda #generoTodosCheckbox label {
+      /*-----*/
+  display: inline-block;
+}
+
+
+
